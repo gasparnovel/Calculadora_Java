@@ -108,5 +108,14 @@ public class Calculadora {
         calculdora();
     }
 
+    public static void resto() {
+        System.out.print("\n" + "Introduzca el primer número: ");
+        num1 = sc2.nextDouble();
+        System.out.print("\n" + "Introduzca el segundo número: ");
+        num2 = sc2.nextDouble();
+        System.out.println("\n" + "El resto de " + num1 + " entre " + num2 + " es " + (num1 % num2));
+        calculdora();
+    }
+
 }
 
