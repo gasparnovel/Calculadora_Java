@@ -1,5 +1,3 @@
-package src;
-
 import java.util.Scanner;
 
 /**
@@ -116,6 +114,4 @@ public class Calculadora {
         System.out.println("\n" + "El resto de " + num1 + " entre " + num2 + " es " + (num1 % num2));
         calculdora();
     }
-
 }
-
