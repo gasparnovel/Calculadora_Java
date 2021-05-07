@@ -72,5 +72,14 @@ public class Calculadora {
         }
     }
 
+    public static void sumar() {
+        System.out.print("\n" + "Introduzca el primer número: ");
+        num1 = sc2.nextDouble();
+        System.out.print("\n" + "Introduzca el segundo número: ");
+        num2 = sc2.nextDouble();
+        System.out.println("\n" + "El resultado de la suma es " + (num1 + num2));
+        calculdora();
+    }
+
 }
 
