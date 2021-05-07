@@ -81,5 +81,14 @@ public class Calculadora {
         calculdora();
     }
 
+    public static void restar() {
+        System.out.print("\n" + "Introduzca el primer número: ");
+        num1 = sc2.nextDouble();
+        System.out.print("\n" + "Introduzca el segundo número: ");
+        num2 = sc2.nextDouble();
+        System.out.println("\n" + "El resultado de la resta es " + (num1 - num2));
+        calculdora();
+    }
+
 }
 
